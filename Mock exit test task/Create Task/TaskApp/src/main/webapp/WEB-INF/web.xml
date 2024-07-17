@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CreateTaskServlet</servlet-name>
+  	<display-name>CreateTaskServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.example.CreateTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateTask</servlet-name>
+  	<display-name>CreateTask</display-name>
+  	<description></description>
+  	<servlet-class>com.example.CreateTask</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CreateTaskServlet</servlet-name>
+  	<url-pattern>/CreateTaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateTask</servlet-name>
+  	<url-pattern>/CreateTask</url-pattern>
+  </servlet-mapping>
+</web-app>
